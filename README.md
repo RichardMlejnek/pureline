@@ -1,3 +1,6 @@
+# ‼️This is not official repo, just my custom version DO NOT USE (or at your risk)‼️
+[Official repo](https://github.com/chris-marsh/pureline/)
+
 PureLine - A Pure Bash Powerline PS1 Command Prompt
 ===================================================
 
