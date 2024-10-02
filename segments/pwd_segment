@@ -42,6 +42,6 @@ function pwd_segment {
     if [[ "${content:0:2}" == " ${PL_SYMBOLS[pwd_separator]}" ]] ; then content="/$content" ; fi
     if [[ "${content: -2}" == "${PL_SYMBOLS[pwd_separator]} " ]] ; then content=${content%%???} ; fi
     PS1+="$(segment_end "$fg_color" "$bg_color")"
-    PS1+="$(segment_content "$fg_color" "$bg_color" " $content ")"
+    PS1+="$(segment_content "$fg_color" "$bg_color" " $content")"
     __last_color="$bg_color"
 }
